@@ -33,7 +33,7 @@ body {
 .top {
   /*Background Image*/
   	background-image: url("../img/background.png");
-  	height: 750px;
+  	height: 100%;
   	width: auto;
   	text-align: center;
   	background-attachment: fixed;
@@ -48,7 +48,7 @@ h1 {
   display: inline-block;
   color: white;
   font-family: 'Anton', serif;
-  font-size:10em;
+  font-size:10vw;
   text-shadow: .03em .03em 0 #049b36;
   margin-top: 80px;
   animation-name: header;
@@ -71,7 +71,7 @@ h1 {
 
 .topbtn {
 font-size: 2.5em;
-margin-top: 0px;
+margin-top: 1vh;
 font-family: 'Kavivanar', cursive;
 border: 3px solid #02d849;
 background-color: transparent;
